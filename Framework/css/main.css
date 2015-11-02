@@ -1,69 +1,89 @@
-/** {
-    border:1px solid red;
-} */
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 } 
-h1{
+
+.grid {
+    max-width: 1200px;  /* you can adjust the max size */
+    width: 100%; /* adjustable width */
+    margin: 0 auto; /* centers the content */
+    padding: 0 15px;
+}
+
+h1 {
 	text-align: right;
 }
-.title{
+
+.title {
 
 	color: black;
-	font-family:Lato;
+	font-family: Lato;
 	
 }
-.subtitle{
+
+.subtitle {
 	font-size: 80%;
 	color: black;
-	font-family:Lato;
+	font-family: Lato;
 	text-align: right;
 }
-.row{
+
+.row {
 	display: -webkit-flex;
 	-webkit-flex-wrap: wrap;
-	display:flex;
-	flex-wrap:wrap;
-	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 
 }
 
-.col-1{
-	width:8.33%;
+.col-1 {
+	width: 8.33%;
 }
-.col-2{
-	width:16.66%;
+
+.col-2 {
+	width: 16.66%;
 }
-.col-3{
-	width:25%;
+
+.col-3 {
+	width: 25%;
 }
-.col-4{
-	width:33.33%;
+
+.col-4 {
+	width: 33.33%;
 }
-.col-5{
-	width:41.66%;
+
+.col-5 {
+	width: 41.66%;
 }
-.col-6{
-	width:50%;
+
+.col-6 {
+	width: 50%;
 }
-.col-7{
-	width:58.33%;
+
+.col-7 {
+	width: 58.33%;
 }
-.col-8{
-	width:66.66%;
+
+.col-8 {
+	width: 66.66%;
 }
-.col-9{
-	width:75%;
+
+.col-9 {
+	width: 75%;
 }
-.col-10{
-	width:83.33%;
+
+.col-10 {
+	width: 83.33%;
 }
-.col-11{
-	width:91.66%;
+
+.col-11 {
+	width: 91.66%;
 }
-.col-12{
-	width:100%;
+
+.col-12 {
+	width: 100%;
 }
