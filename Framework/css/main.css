@@ -1,16 +1,16 @@
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 } 
 
 .grid {
-    max-width: 1200px;  /* you can adjust the max size */
-    width: 100%; /* adjustable width */
-    margin: 0 auto; /* centers the content */
-    padding: 0 15px;
+	max-width: 1200px;  /* you can adjust the max size */
+	width: 100%; /* adjustable width */
+	margin: 0 auto; /* centers the content */
+	padding: 0 15px;
 }
 
 h1 {
