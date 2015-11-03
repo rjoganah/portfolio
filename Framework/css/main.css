@@ -4,71 +4,48 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-.grid {
-    max-width: 1200px;
-    /* you can adjust the max size */
-    
-    width: 100%;
-    /* adjustable width */
-    
-    margin: 0 auto;
-    /* centers the content */
-    
-    padding: 0 15px;
+
+.logo {
+    margin-top: 25px;
+    max-height: 50px;
+    max-width: 50px;
 }
-h1 {
+
+h2 {
     text-align: right;
 }
-.title {
-    color: black;
-    font-family: Lato;
+
+h3 {
+    text-align: left;
 }
-.subtitle {
-    font-size: 80%;
-    color: black;
-    font-family: Lato;
-    text-align: right;
+
+.greyarea {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: grey;
+    min-height: 3px;
 }
-.row {
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+
+.projectimg {
+    max-height: 280px;
 }
-.col-1 {
-    width: 8.33%;
+
+.screenshot {
+    margin-right: auto;
+    margin-left: auto;
 }
-.col-2 {
-    width: 16.66%;
+
+.screenshot_img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.col-3 {
-    width: 25%;
+
+.description {
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.col-4 {
-    width: 33.33%;
-}
-.col-5 {
-    width: 41.66%;
-}
-.col-6 {
-    width: 50%;
-}
-.col-7 {
-    width: 58.33%;
-}
-.col-8 {
-    width: 66.66%;
-}
-.col-9 {
-    width: 75%;
-}
-.col-10 {
-    width: 83.33%;
-}
-.col-11 {
-    width: 91.66%;
-}
-.col-12 {
-    width: 100%;
-}
+

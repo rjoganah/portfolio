@@ -4,31 +4,33 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .grid {
     max-width: 600px;
     /* you can adjust the max size */
-    
     width: 100%;
     /* adjustable width */
-    
     margin: 0 auto;
     /* centers the content */
-    
     padding: 0 15px;
 }
+
 h1 {
     text-align: right;
 }
+
 .title {
     color: black;
     font-family: Lato;
 }
+
 .subtitle {
     font-size: 80%;
     color: black;
     font-family: Lato;
     text-align: right;
 }
+
 .row {
     display: -webkit-flex;
     -webkit-flex-wrap: wrap;
@@ -36,39 +38,51 @@ h1 {
     flex-wrap: wrap;
     width: 100%;
 }
+
 .col-1 {
     width: 100%;
 }
+
 .col-2 {
     width: 100%;
 }
+
 .col-3 {
     width: 100;
 }
+
 .col-4 {
     width: 100%;
 }
+
 .col-5 {
     width: 100%;
 }
+
 .col-6 {
     width: 100%;
 }
+
 .col-7 {
     width: 100%;
 }
+
 .col-8 {
     width: 100%;
 }
+
 .col-9 {
     width: 100%;
 }
+
 .col-10 {
     width: 100%;
 }
+
 .col-11 {
     width: 100%;
 }
+
 .col-12 {
     width: 100%;
 }
